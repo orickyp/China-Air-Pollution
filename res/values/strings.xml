@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">China Air Pollution</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="loading">Loading Data...</string>
+    <string name="toggle_turn_start_stop">Start/Stop</string>
+    <string name="toggle_turn_start">Start</string>
+    <string name="toggle_turn_stop">Stop</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_toast_credit">Credits</string>
+    <string name="toggle_turn_on">On</string>
+    <string name="toggle_turn_off">Off</string>
+    <string name="category_prompt">Choose a category</string>
+    <string name="menu_setting">Setting</string>
+    <string name="sub_menu_back">Back</string>
+    <string name="about">ABOUT PROGRAM</string>
+    <string name="about_content">China Air Pollution created by Onesimus Ricky\n(onesimus.ricky.personal@gmail.com)\n 
+        	from Kwik Kian Gie School of Business.\n
+        	This program provides information about air quality in China and also 
+        	can warn users with Sound and Vibrate.\nAQI is Air Quality Index, it is represented by numbers.</string>
+        	
+    <string name="about_content1">China Air Pollution created by </string>
+    <string name="about_content1_2">China Air Pollution created by Onesimus Ricky from</string>
+    <string name="about_content_link1"><![CDATA[ <a href="http://limitless-beach-2725.herokuapp.com/"> Onesimus Ricky </a>]]></string>
+    <string name="about_content2">from </string>
+    <string name="about_content_link2"><![CDATA[ <a href="http://www.kwikkiangie.ac.id/">Kwik Kian Gie School of Business</a>]]></string>
+	<string name="about_content3">.\nThis program provides information about air quality in China and also
+	    can warn users with Sound and Vibrate.\nAQI is Air Quality Index, it is represented by numbers.</string>
+	
+	<string name="sound_prompt">Choose sound</string>
+    
+    
+    <string name="exit">This process will stop all Service.\nAre you sure want to exit ?</string>
+    <string-array name="city_arrays">
+        <item>Beijing</item>
+        <item>Changzhou</item>
+        <item>Chengdu</item>
+        <item>Foshan</item>
+        <item>Guangzhou</item>
+        <item>Hangzhou</item>
+        <item>Hefei</item>
+        <item>Hongkong</item>
+        <item>HuaiAn</item>
+        <item>Huzhou</item>
+        <item>Jiaxing</item>
+        <item>Lianyungang</item>
+        <item>Linyi</item>
+        <item>Maanshan</item>
+        <item>Nanjing</item>
+        <item>Nantong</item>
+        <item>Ningbo</item>
+        <item>Qingdao</item>
+        <item>Rizhao</item>
+        <item>Shanghai</item>
+        <item>Shaoxing</item>
+        <item>Shenzhen</item>
+        <item>Suqian</item>
+        <item>Taizhoushi</item>
+        <item>Weifang</item>
+        <item>Wuhu</item>
+        <item>Wuxi</item>
+        <item>Xuzhou</item>
+        <item>Yancheng</item>
+        <item>Yangzhou</item>
+        <item>Zaozhuang</item>
+        <item>Zhenjiang</item>
+        <item>Zhoushan</item>
+    </string-array>
+
+    <string name="city_prompt">Choose a city</string>
+
+    <string-array name="category_arrays">
+        <item>Good : 0 - 50</item>
+        <item>Moderate : 51 - 100</item>
+        <item>Unhealthy for Sensitive Groups : 101 - 150</item>
+        <item>Unhealthy : 151 - 200</item>
+        <item>Very Unhealthy : 201 - 300</item>
+        <item>Hazardous : 301 ~ </item>
+    </string-array>
+
+    <string name="good">0 - 50: Good. 
+        Air quality is considered satisfactory, and air pollution poses little or no risk.</string>
+    <string name="moderate">51 - 100: Moderate. 
+        Air quality is acceptable; however, 
+        for some pollutants there may be a moderate health concern for a very small number of people. 
+        For example, people who are unusually sensitive to ozone may experience respiratory symptoms.</string>
+    <string name="unhealthy_for_sensitive_groups">101 - 150: Unhealthy for Sensitive Groups. 
+        Although general public is not likely to be affected at this AQI range, 
+        people with lung disease, older adults and children are at a greater risk from exposure to ozone, 
+        whereas persons with heart and lung disease, 
+        older adults and children are at greater risk from the presence of particles in the air.</string>
+    <string name="unhealthy">151 - 200: Unhealthy. 
+        Everyone may begin to experience some adverse health effects, 
+        and members of the sensitive groups may experience more serious effects.</string>
+    <string name="very_unhealthy">201 - 300: Very Unhealthy. 
+        This would trigger a health alert signifying that everyone may 
+        experience more serious health effects. </string>
+    <string name="hazardous">301 ~: Hazardous. 
+        This would trigger a health warnings of emergency conditions. 
+        The entire population is more likely to be affected. 
+        Everyone may experience more serious health effects.</string>
+
+    <string name="oridata1">\"Understanding the AQI\".\t</string>
+    <string name="orilink1"><![CDATA[ <a href="http://www.airnow.gov/index.cfm?action=aqibasics.aqi">AIRNow</a>]]></string>
+    <string name="oridata2">.\tAchieved 26 November 2013.\tRetrieved 29 December 2013.</string>
+   
+    <string name="interval_prompt">Choose a interval</string>
+
+    <string-array name="interval_arrays">
+        <item>1 minutes</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hour</item>
+        <item>24 hour / 1 day</item>
+    </string-array>
+
+    <string name="title_activity_credit">CreditActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exit">ExitActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_super">SuperActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>

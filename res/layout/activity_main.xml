@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+        android:fitsSystemWindows="true"
+        android:orientation="horizontal" >
+	                
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical" >
+                
+                <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:paddingBottom="@dimen/activity_vertical_half_margin"
+				    android:paddingTop="@dimen/activity_vertical_half_margin" >
+	
+		            <TextView
+		                android:id="@+id/textViewInfo"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:gravity="center"
+		                android:text="AQI Info"
+		                android:textAppearance="?android:attr/textAppearanceLarge"
+		                android:textStyle="bold" />
+	
+	            </LinearLayout>
+	            
+				<View
+	                android:layout_width="match_parent"
+			    	android:layout_height="2dip"
+					android:background="@color/COLOR_GREY_DARK" />
+				
+	            <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal" >
+	
+	                <FrameLayout
+	                    android:id="@+id/frameAqi"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="match_parent"
+	                	android:layout_weight="0.25"
+	                    android:background="@color/COLOR_WHITE"  >
+						
+	                    <TextView
+	                        android:id="@+id/ttAqi"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="match_parent"
+	                        android:textAppearance="?android:attr/textAppearanceLarge"
+	                        android:layout_gravity="center"
+	                        android:gravity="center"
+	                        android:textStyle="bold" />
+	
+	                </FrameLayout>
+	
+			        <FrameLayout
+			            android:id="@+id/frameAqiMsg"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="match_parent"
+	                    android:layout_weight="0.75" >
+						<LinearLayout
+			                android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+			                android:orientation="vertical" >
+							<TextView
+		                        android:id="@+id/ttAqiMsg"
+		                        android:layout_width="match_parent"
+		                        android:layout_height="wrap_content"
+		                        android:gravity="center"
+		                        android:textAppearance="?android:attr/textAppearanceMedium"
+	                        	android:textStyle="bold|italic"
+	                    		android:background="@color/COLOR_GREY_DARK" />
+							<TextView
+		                        android:id="@+id/ttAqiTemp"
+		                        android:layout_width="match_parent"
+		                        android:layout_height="wrap_content"
+		                        android:gravity="center"
+		                        android:textAppearance="?android:attr/textAppearanceSmall"
+		                        android:textColor="@color/COLOR_WHITE"
+	                    		android:background="@color/COLOR_GREY_DARK"
+	                        	android:textStyle="bold|italic" />
+		                    <TextView
+		                        android:id="@+id/ttAqiMsg2"
+		                        android:layout_width="match_parent"
+		                        android:layout_height="wrap_content"
+		                        android:gravity="center"
+		                        android:textAppearance="?android:attr/textAppearanceSmall"
+	                    		android:background="@color/COLOR_GREY_DARK" />
+		                     
+		               </LinearLayout>
+	                </FrameLayout>    
+	             </LinearLayout>
+	        </LinearLayout>
+	        
+            <View
+                android:layout_width="match_parent"
+		    	android:layout_height="2dip"
+				android:background="@color/COLOR_GREY_DARK" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+                
+                <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+				    android:paddingLeft="@dimen/activity_horizontal_margin"
+				    android:paddingRight="@dimen/activity_horizontal_margin" >
+	
+		            <TextView
+		                android:id="@+id/textViewAboutAqi"
+		                android:layout_width="match_parent"
+		                android:layout_height="match_parent"
+		                android:gravity="center"
+		                android:text="About the Air Quality and Pollution Measurement"
+		                android:textAppearance="?android:attr/textAppearanceLarge"
+		                android:textStyle="bold" />
+	
+	            </LinearLayout>
+	            
+                <View
+	                android:layout_width="match_parent"
+			    	android:layout_height="2dip"
+					android:background="@color/COLOR_GREY_DARK" />
+                
+                <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal" >
+		        	<ScrollView
+		        	    android:layout_width="match_parent"
+		                android:layout_height="match_parent" >
+	                    <LinearLayout
+			                android:layout_width="match_parent"
+			                android:layout_height="match_parent"
+			                android:orientation="vertical" >
+							                    
+	                        <TextView
+				                android:id="@+id/textViewContent1"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:gravity="center"
+				                android:text="@string/good"
+				                android:background="@color/COLOR_GREEN"
+				                android:textColor="@color/COLOR_WHITE"
+				                android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        
+	                        <TextView
+				                android:id="@+id/textViewContent2"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:gravity="center"
+				                android:text="@string/moderate"
+				                android:background="@color/COLOR_YELLOW"
+				                android:textColor="@color/COLOR_BLACK_LIGHT"
+				                android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        
+	                        <TextView
+				                android:id="@+id/textViewContent3"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:gravity="center"
+				                android:text="@string/unhealthy_for_sensitive_groups"
+				                android:background="@color/COLOR_ORANGE"
+				                android:textColor="@color/COLOR_BLACK_LIGHT"
+				                android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        
+	                        <TextView
+				                android:id="@+id/textViewContent4"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:gravity="center"
+				                android:text="@string/unhealthy"
+				                android:background="@color/COLOR_PURPLE_RED_LIGHT"
+				                android:textColor="@color/COLOR_WHITE"
+				                android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        
+	                        <TextView
+				                android:id="@+id/textViewContent5"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:gravity="center"
+				                android:text="@string/very_unhealthy"
+				                android:background="@color/COLOR_PURPLE_BLUE_DARK"
+				                android:textColor="@color/COLOR_WHITE"
+				                android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        
+	                        <TextView
+				                android:id="@+id/textViewContent6"
+				                android:layout_width="match_parent"
+				                android:layout_height="wrap_content"
+				                android:gravity="center"
+				                android:text="@string/hazardous"
+				                android:background="@color/COLOR_PURPLE_RED_DARK"
+				                android:textColor="@color/COLOR_WHITE"
+				                android:textAppearance="?android:attr/textAppearanceSmall" />
+	                        
+	                        <TextView
+				                android:id="@+id/textViewLink"
+				                android:layout_width="wrap_content"
+				                android:layout_height="wrap_content"
+				                android:text=""
+				                android:textAppearance="?android:attr/textAppearanceSmall"
+				                android:textStyle="italic" />
+	                        
+						</LinearLayout>
+                    </ScrollView>
+		        </LinearLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
