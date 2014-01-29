@@ -26,11 +26,11 @@
     <string name="about_content1">China Air Pollution created by </string>
     <string name="about_content1_2">China Air Pollution created by Onesimus Ricky from</string>
     <string name="about_content_link1"><![CDATA[ <a href="http://limitless-beach-2725.herokuapp.com/"> Onesimus Ricky </a>]]></string>
-    <string name="about_content2">from </string>
-    <string name="about_content_link2"><![CDATA[ <a href="http://www.kwikkiangie.ac.id/">Kwik Kian Gie School of Business</a>]]></string>
+    <string name="about_content2">from</string>
+    <string name="about_content_link2">\u00A0<![CDATA[ <a href="http://www.kwikkiangie.ac.id/">Kwik Kian Gie School of Business</a>]]></string>
 	<string name="about_content3">.\nThis program provides information about air quality in China and also
-	    can warn users with Sound and Vibrate.\nAQI is Air Quality Index, it is represented by numbers.</string>
-	
+	    can warn users with Sound and Vibrate.\nAQI is Air Quality Index, it is represented by numbers. The AQI value obtained via</string>
+	<string name="about_content_link3">\u00A0<![CDATA[ <a href="http://aqicn.org">aqicn.org</a>]]></string>
 	<string name="sound_prompt">Choose sound</string>
     
     

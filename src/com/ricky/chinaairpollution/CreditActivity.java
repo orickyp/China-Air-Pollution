@@ -28,7 +28,7 @@ public class CreditActivity extends Activity {
 //        ttCredit.append(getString(R.string.about_content2));
         ttCredit.append(Html.fromHtml(getString(R.string.about_content_link2)));
         ttCredit.append(getString(R.string.about_content3));
-        
+        ttCredit.append(Html.fromHtml(getString(R.string.about_content_link3)));
         ttCredit.setMovementMethod(LinkMovementMethod.getInstance());
 		
 		buttonClose = (Button) findViewById(R.id.buttonClose);
